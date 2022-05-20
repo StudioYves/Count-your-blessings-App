@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Passenger counter</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Count your blessings!</h1>
+        <div id="count"> 
+            0
+        </div>
+        <div class="buttons">
+            <button class="button" id="btn-count" onclick="increment()">One more blessing</button>
+            <button class="button" id="btn-save" onclick="save()">Save</button>
+        </div>
+        <div>
+            <h2>Blessings in disguise:</h2>
+            <p id="counts-saved"></p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
